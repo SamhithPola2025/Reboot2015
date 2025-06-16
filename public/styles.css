@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size: 70px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;    
+    font-family: 'Gill Sans';
+    font-size: 30px;
+}
+
+.class1 {
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size: 30px;
+    color: crimson;
+}

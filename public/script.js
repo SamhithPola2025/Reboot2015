@@ -75,15 +75,10 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 
   async function spawnLoop() {
-    let timefast = 0
-    let secondswait = 1
+    const secondswait = 3000
     while (true) {
       spawnThing();
       await wait(secondswait);
-      timefast++
-      if (timefast % 7 === 0) {
-        secondswait++
-      }
     }
   }
 

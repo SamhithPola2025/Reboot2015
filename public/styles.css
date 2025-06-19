@@ -16,6 +16,19 @@ h2 {
     font-size: 30px;
 }
 
+p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+.pfooter {
+    position: fixed;
+    bottom: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
 .class1 {
     text-align: center;
     font-family: 'Gill Sans';
@@ -37,4 +50,41 @@ h2 {
     transform-origin: center;
     will-change: transform;
     backface-visibility: hidden;
+  }
+
+  input[type="text"] {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    margin-top: 9%;
+  }
+
+  input[type="text"]:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 4px 12px rgba(102, 175, 233, 0.4);
+  }
+
+  input[type="submit"]:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 4px 12px rgba(102, 175, 233, 0.4);
+  }
+
+  input[type="submit"] {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    display:block;
+    margin:0 auto;
+    margin-top: 1%;
   }
